@@ -1,0 +1,7 @@
+project: yaxpeax-x86
+target: decode-does-not-panic
+
+cmds:
+  - cmd: /decode_does_not_panic
+  - cmd: /decode_does_not_panic_no_inst @@
+    libfuzzer: false

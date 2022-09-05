@@ -1,0 +1,7 @@
+project: yaxpeax-x86
+target: display-does-not-panic
+
+cmds:
+  - cmd: /display_does_not_panic
+  - cmd: /display_does_not_panic_no_inst @@
+    libfuzzer: false
